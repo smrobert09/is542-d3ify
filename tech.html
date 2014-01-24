@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Tech-ology</title>
+		<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<a href="#"><li>Home-ology</li></a>
+					<a href="tech.html"><li>Tech-ology</li></a>
+					<a href="#"><li>Craft-ology</li></a>
+					<a href="#"><li>Blog-ology</li></a>		
+					<a href="about.html"><li>Bio-ology</li></a>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<div>
+				<h2>Meanderings with Morgan</h2>
+				<h3>A Tech Enthusiasts Professional Perspectives</h3>
+			</div>
+			<div>
+				<h2>Other Posts</h2>
+				<ul>
+					<a href="#"><li>Apex Code - Working with Limits</li></a>
+					<a href="#"><li>URL Hacking in Salesforce.com</li></a>
+					<a href="#"><li>My First Exploits with Raspberry Pi</li></a>
+				</ul>
+			</div>
+			<article>
+				<h2>D3-ify</h2>
+				<h3>Divine Dom <small>Mo</small>dification</h3>
+				<p>
+				Alright, so the D3 in not really of divine origin, but looking at the neat things that have been done with it, it very well could be.  Javascript libraries are many and varied.  In essence, they serve a single purpose, to simplify interaction with a web page through bundling simple commands into complex functions that are much easier to call. 
+				</p>
+				<p>So I am saying that there many libraries that do what D3 does? So why should I care? Document (or DOM) maniupation is the heart of D3. However, it is so much more. Some libraries, especially those involving data manipulation and presentation, include custom syntax and markup that is required to use.  D3 is different.  It is standards driven. It utilizes only HTML, CSS, and SVG, three of the most basic, universal standards in technology. This means that it is all but guaranteed to function properly on any modern browser.</p>
+				<p>What is SVG you ask? Don't worry, I had the same question. SVG stands for <strong>scalable vector graphics</strong>. These I had heard about. Basically, it breaks a picture down into a set of functions (or vectors) that can be used to redraw the image. The amazing thing is, if I want to make the picture twice as big, I just tell these functions to draw twice as long as normal. The same goes if I want to shrink an image. What is even better (and makes SVGs useful inside oo a website) is that the instructions are kept in a strict XML format.  </p>
+				<p>You should be saying to yourself, "Hey, so is HTML!" Thats right. Because of the XML formating, any browser <strong>already</strong> knows how to interpret the tags.  It is just a matter of how these tags should be rendered visually. Thanks to SVG (supplying shape) and CSS (providing style), we are set to make all sorts of cool visualiztions <em>and access them from almost anywhere</em>.  Neat huh.</p>
+				<p>So, do you want to see how it works? Great. Lets get started. </p>
+				<p>Below is the HTML for a basic, blank page. Nothing special here right? Just wait.</p>
+				<code>
+				&lt!DOCTYPE html&gt<br/>&lthtml &gt<br/>&lthead&gt<br/>&ltmeta charset="UTF-8"/&gt<br/>&lttitle&gtTest Page&lt/title&gt<br/>&lt/head&gt<br/>&ltbody&gt<br/>&lt/body&gt<br/>&lt/html&gt
+				</code>
+				<p>Now, we add the library with a link tag, and call a function to append a new tag to the body, an SVG tag.</p>
+				<code>
+				&lt!DOCTYPE html&gt<br/>&lthtml &gt<br/>&lthead&gt<br/>&ltmeta charset="UTF-8"/&gt<br/>&lttitle&gtTest Page&lt/title&gt<br/>&lt/script&gt&lt/head&gt<br/>&ltbody&gt<br/>&ltscript src="http://d3js.org/d3.v3.min.js" charset="utf-8"&gt<br/>
+				<br/>&lt/body&gt<br/>&lt/html&gt
+				</code>
+				<p>Now that we have our SVG tag, we can do all sorts of cool things.  Such as draw a circle, resize the circle, or move the circle across the page.</p>
+				<code>Example code here</code>
+				<p>Now, these things probably do not appear to be anything special. But consider this. I have access to a large source of data, such as the national budget. With this data, I can run calculations to and draw circles of relative sizes as a percent of the total. I can also move those circles into groups based upon other parameters, such as type, change over previous years, or by functional department. This may take some work, but the result can be as stunning as this graphic displayed in graphic below.</p>
+				<iframe src="http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0"></iframe>
+				<p>Pretty cool, huh? Thats right.  We are going to learn a lot this semester about D3 and how to make some really neat stuff. So stay tuned, and we will see where this little project will take us!</p>
+				<p class="signature">Morgan</p>
+				<time>January 22, 2014</time>
+			</article>
+		</section>
+		<script type="text/javascript" src="resources/js/technology.js"></script>
+	</body>
+</html>

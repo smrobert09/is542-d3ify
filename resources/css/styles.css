@@ -1,8 +1,5 @@
 /*
-
-A076A8
-98959C
-
+General Template
 */
 
 
@@ -46,6 +43,11 @@ nav ul a{
 	color:inherit;
 	text-decoration: none;
 }
+
+
+/*
+About pages styling
+*/
 
 .profile{
 	height: 250px;
@@ -94,9 +96,9 @@ nav ul a{
 }
 
 
-
-
-
+/*
+Tech Blog Styling
+*/
 
 #techblog {
 	position: relative;

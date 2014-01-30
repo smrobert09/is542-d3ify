@@ -19,6 +19,9 @@ nav ul{
 	display: inline;
 	list-style: none;
 	-webkit-padding-start: 0px;
+	-ms-padding-start: 0px;
+	-moz-padding-start: 0px;
+	padding-start: 0px;
 }
 
 nav ul li{

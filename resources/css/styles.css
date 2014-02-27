@@ -8,7 +8,6 @@ A076A8
 
 body{
 	color: black;
-	max-width: 980;
 	background-color: #444444;
 }
 
@@ -192,4 +191,9 @@ section{
 
 .signature{
 	font-family: 'Rock Salt', cursive;
+}
+
+.highlighted{
+	background-color: grey;
+	height: 110%;
 }

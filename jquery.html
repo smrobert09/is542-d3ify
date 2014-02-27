@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>JQuerify</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+</head>
+<body>
+	<header>
+
+	</header>
+
+	<section>
+		<h1>Log Book</h1>
+		<h2>And let there be a record kept among you</h2>
+
+		<div>
+			<label for="vistorname">Please enter your name:</label>
+			<input type="text" id="vistorname"/>
+			<button id="record">Record</button>
+		</div>
+
+		<div>
+		<table id="logbook">
+			<thead>
+				<th>Name</th>
+				<th>Visit Date</th>
+				<th>Remove</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Tue Feb 25 2014</td>
+					<td><button class="remove">Remove</button></td>
+				</tr>
+				<tr>
+					<td>Jacob</td>
+					<td>Tue Feb 25 2014</td>
+					<td><button class="remove">Remove</button></td>
+				</tr>
+				<tr>
+					<td>Jingelhimer</td>
+					<td>Tue Feb 25 2014</td>
+					<td><button class="remove">Remove</button></td>
+				</tr>
+				<tr>
+					<td>Schmidt</td>
+					<td>Tue Feb 25 2014</td>
+					<td><button class="remove">Remove</button></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</section>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="resources/js/header.js"></script>
+	<script src="resources/js/jquery.js"></script>
+</body>
+</html>

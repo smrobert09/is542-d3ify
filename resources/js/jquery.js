@@ -12,8 +12,16 @@ $(".remove").click(function() {
 	$(this).parentsUntil("tbody").remove();
 });
 
-$("tr").hover(function () {
+$("tbody tr").hover(function () {
 	$(this).addClass("highlighted");
 },function () {
 	$(this).removeClass("highlighted");
+});
+
+$(".accordian").accordion({
+	collapsible:true
+});
+
+$("#vistorname").autocomplete({
+	source: ["John", "Bob", "James", "Seth", "Kevin", "Sally", "Suzy", "Megan"]
 });

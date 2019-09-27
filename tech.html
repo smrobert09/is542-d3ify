@@ -57,11 +57,11 @@
 		
 		<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #000000;
+		background-color: #779d21;
 		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #000000;
+		outline: 1px solid #779d21;
 	}
 </style>
 
@@ -90,16 +90,16 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://na58.salesforce.com',
-			'https://minted.secure.force.com',
+			'https://cs92.salesforce.com',
+			'https://mintfull-minted.cs92.force.com/faq',
 			gslbBaseURL,
-			'00D40000000Mx87',
+			'00D3F0000001VM3',
 			'MINTED_Proactive_Art_Styling',
 			{
-				baseLiveAgentContentURL: 'https://c.la1-c1-iad.salesforceliveagent.com/content',
+				baseLiveAgentContentURL: 'https://c.la2-c1cs-iad.salesforceliveagent.com/content',
 				deploymentId: '57240000000CbAm',
-				buttonId: '573f30000008PRd',
-				baseLiveAgentURL: 'https://d.la1-c1-iad.salesforceliveagent.com/chat',
+				buttonId: '5733F00000001Of',
+				baseLiveAgentURL: 'https://d.la2-c1cs-iad.salesforceliveagent.com/chat',
 				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04If3000000PAscEAG_16d25aa1b37',
 				isOfflineSupportEnabled: false
 			}
@@ -108,7 +108,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://na58.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://cs92.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
